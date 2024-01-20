@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="770593a5-1eac-4bc9-a231-fa557ce5a25d" name="更改" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Editor/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Editor/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Editor/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Editor/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Editor/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Editor/src/main/java/module-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Editor/src/main/java/org/jufeimswz/diarytoday/editor/EditorApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Editor/src/main/java/org/jufeimswz/diarytoday/editor/EditorController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Editor/src/main/resources/org/jufeimswz/diarytoday/editor/editor-view.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Editor/src/main/resources/org/jufeimswz/diarytoday/editor/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Login/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Login/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Login/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Login/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Login/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Login/src/main/java/module-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Login/src/main/java/org/jufeimswz/diarytoday/login/LoginApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Login/src/main/java/org/jufeimswz/diarytoday/login/LoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Login/src/main/resources/org/jufeimswz/diarytoday/login/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Login/src/main/resources/org/jufeimswz/diarytoday/login/login-view.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="使用 Maven 包装器" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2bCdgakixc7G438dZ5rdzcEviNZ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Maven.Editor [install].executor": "Run",
+    "Maven.Editor [org.apache.maven.plugins:maven-compiler-plugin:3.11.0:compile].executor": "Run",
+    "Maven.Editor [org.apache.maven.plugins:maven-install-plugin:2.4:install].executor": "Run",
+    "Maven.Editor [org.apache.maven.plugins:maven-jar-plugin:2.4:jar].executor": "Run",
+    "Maven.Editor [package].executor": "Run",
+    "Maven.Login [clean].executor": "Run",
+    "Maven.Login [com.github.akman:jpackage-maven-plugin:0.1.5:jpackage].executor": "Run",
+    "Maven.Login [install].executor": "Run",
+    "Maven.Login [org.apache.maven.plugins:maven-compiler-plugin:3.11.0:compile].executor": "Run",
+    "Maven.Login [org.apache.maven.plugins:maven-install-plugin:2.4:install].executor": "Run",
+    "Maven.Login [org.apache.maven.plugins:maven-jar-plugin:2.4:jar].executor": "Run",
+    "Maven.Login [org.openjfx:javafx-maven-plugin:0.0.8:jlink].executor": "Run",
+    "Maven.Login [org.openjfx:javafx-maven-plugin:0.0.8:run].executor": "Run",
+    "Maven.Login [package].executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "jdk.selected.JAVA_MODULE": "corretto-17",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/University/javaP/Workspace/DiaryToday-E/Editor/src/main/resources/org/jufeimswz/diarytoday/editor",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true",
+    "应用程序.EditorApp.executor": "Run",
+    "应用程序.HelloApplication.executor": "Run",
+    "应用程序.LoginApp.executor": "Run"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\University\javaP\Workspace\DiaryToday-E\Editor\src\main\resources\org\jufeimswz\diarytoday\editor" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-1.8.0_392-corretto-1.8.0_392-f644763e9732-f719d367" />
+        <option value="jdk-17.0.10-corretto-17.0.10-f644763e9732-24fca987" />
+        <option value="jdk-17.0.9-corretto-17.0.9-f644763e9732-ebaef533" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="770593a5-1eac-4bc9-a231-fa557ce5a25d" name="更改" comment="" />
+      <created>1705723109351</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1705723109351</updated>
+      <workItem from="1705723110439" duration="2099000" />
+      <workItem from="1705725235416" duration="704000" />
+      <workItem from="1705725998577" duration="7459000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

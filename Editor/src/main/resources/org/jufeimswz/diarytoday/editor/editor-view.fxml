@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ButtonBar?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TreeView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.web.HTMLEditor?>
+
+<SplitPane dividerPositions="0.2215401785714286" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.jufeimswz.diarytoday.editor.EditorController">
+  <items>
+    <TreeView prefHeight="200.0" prefWidth="200.0" />
+    <BorderPane prefHeight="200.0" prefWidth="200.0">
+      <center>
+        <TabPane prefHeight="200.0" prefWidth="200.0" tabClosingPolicy="UNAVAILABLE" BorderPane.alignment="CENTER">
+          <tabs>
+            <Tab fx:id="tab" text="Untitled Tab 1">
+              <content>
+                <HTMLEditor fx:id="editor" htmlText="&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body contenteditable=&quot;true&quot;&gt;&lt;/body&gt;&lt;/html&gt;" prefHeight="200.0" prefWidth="506.0" />
+              </content>
+            </Tab>
+          </tabs>
+        </TabPane>
+      </center>
+      <bottom>
+        <ButtonBar prefHeight="40.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+          <buttons>
+            <Button fx:id="insertImage" mnemonicParsing="false" onAction="#imageInsert" text="插入图片" />
+            <Button fx:id="printCode" mnemonicParsing="false" onAction="#codePrint" text="打印代码"/>
+            <Button fx:id="insertAudio" mnemonicParsing="false" onAction="#audioInsert" text="插入音频"/>
+            <Button fx:id="insertMedia" mnemonicParsing="false" onAction="#mediaInsert" text="插入视频"/>
+          </buttons>
+        </ButtonBar>
+      </bottom>
+    </BorderPane>
+  </items>
+</SplitPane>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>org.jufeimswz.diarytoday</groupId>
+  <artifactId>Login</artifactId>
+  <version>0.1</version>
+  <name>Login</name>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+<junit.version>5.10.0</junit.version>  </properties>
+
+  <dependencies>
+    <dependency>
+      <groupId>org.openjfx</groupId>
+      <artifactId>javafx-controls</artifactId>
+      <version>17.0.6</version>
+    </dependency>
+    <dependency>
+      <groupId>org.openjfx</groupId>
+      <artifactId>javafx-fxml</artifactId>
+      <version>17.0.6</version>
+    </dependency>
+    <dependency>
+      <groupId>org.openjfx</groupId>
+      <artifactId>javafx-web</artifactId>
+      <version>17.0.10</version>
+    </dependency>
+
+<dependency>
+      <groupId>org.junit.jupiter</groupId>
+      <artifactId>junit-jupiter-api</artifactId>
+      <version>${junit.version}</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.junit.jupiter</groupId>
+      <artifactId>junit-jupiter-engine</artifactId>
+      <version>${junit.version}</version>
+      <scope>test</scope>
+    </dependency>
+      <dependency>
+          <groupId>org.jufeimswz.diarytoday</groupId>
+          <artifactId>Editor</artifactId>
+          <version>1.0-SNAPSHOT</version>
+          <scope>compile</scope>
+      </dependency>
+  </dependencies>
+
+  <build>
+    <pluginManagement>
+      <plugins>
+        <plugin>
+          <groupId>com.github.akman</groupId>
+          <artifactId>jpackage-maven-plugin</artifactId>
+          <version>0.1.5</version>
+          <configuration>
+            <toolhome>${env.JPACKAGE_HOME}</toolhome>
+            <dest>${project.build.directory}/jpackage</dest>
+            <name>DiaryToday</name>
+            <appversion>0.1.9</appversion>
+            <description>work made by 0224766wu-songye and 0211611zheng-huixin</description>
+            <vendor>jufeimswz</vendor>
+            <icon>${project.basedir}/src/main/resources/org/jufeimswz/diarytoday/login/icon.png</icon>
+            <modulepath>
+              <dependencysets>
+                <dependencyset>
+                  <includeoutput>true</includeoutput>
+                  <excludeautomatic>true</excludeautomatic>
+                </dependencyset>
+              </dependencysets>
+            </modulepath>
+            <addmodules>
+            </addmodules>
+            <module>org.jufeimswz.diarytoday.login/org.jufeimswz.diarytoday.login.LoginApp</module>
+            <javaoptions>-Dfile.encoding=UTF-8 -Xms256m -Xmx512m</javaoptions>
+            <windirchooser>true</windirchooser>
+            <winshortcut>true</winshortcut>
+          </configuration>
+        </plugin>
+      </plugins>
+    </pluginManagement>
+    <plugins>
+      <plugin>
+        <groupId>com.github.akman</groupId>
+        <artifactId>jpackage-maven-plugin</artifactId>
+        <executions>
+          <execution>
+            <id>jpackage-installer</id>
+            <phase>verify</phase>
+            <goals>
+              <goal>jpackage</goal>
+            </goals>
+          </execution>
+        </executions>
+      </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <version>3.11.0</version>
+        <configuration>
+          <source>17</source>
+          <target>17</target>
+        </configuration>
+      </plugin>
+      <plugin>
+        <groupId>org.openjfx</groupId>
+        <artifactId>javafx-maven-plugin</artifactId>
+        <version>0.0.8</version>
+        <executions>
+          <execution>
+            <!-- Default configuration for running with: mvn clean javafx:run -->
+            <id>default-cli</id>
+            <configuration>
+              <mainClass>org.jufeimswz.diarytoday.login/org.jufeimswz.diarytoday.login.LoginApp</mainClass>
+              <launcher>app</launcher>
+              <jlinkZipName>app</jlinkZipName>
+              <jlinkImageName>app</jlinkImageName>
+              <noManPages>true</noManPages>
+              <stripDebug>true</stripDebug>
+              <noHeaderFiles>true</noHeaderFiles>
+            </configuration>
+          </execution>
+        </executions>
+      </plugin>
+    </plugins>
+  </build>
+</project>
